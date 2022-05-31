@@ -1,6 +1,6 @@
 {
   "name": "v-toastser",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/v-toastser.ssr.js",
   "browser": "dist/v-toastser.esm.js",
