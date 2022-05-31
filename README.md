@@ -10,7 +10,7 @@
   </a>
 </p>
 
-> DESCRIPTION
+> Vue.js toast notification plugin free to use for Vue3
 
 ### 🏠 [Homepage](https://github.com/notschlag/v-toastser#readme)
 
@@ -53,9 +53,13 @@ toast.error("Title", "This is a toast!", 4000);
 toast.success("Title", "This is a toast!", 4000);
 ```
 
-## Run tests
+## Execute example
 
-```sh
+Clone the example project and run:
+
+```js
+cd example
+npm install
 npm run serve
 ```
 
@@ -75,5 +79,3 @@ Copyright © 2022 [notschlag](https://github.com/notschlag).<br />
 This project is [MIT](https://github.com/MeForma/vue-toaster/blob/master/LICENSE.txt) licensed.
 
 ---
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
