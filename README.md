@@ -23,13 +23,34 @@
 ## Install
 
 ```sh
-npm install
+npm install v-toastser
+```
+
+## Import
+
+```js
+//main.js
+import { createApp } from "vue";
+import App from "./App.vue";
+
+import store from "v-toastser/src/store";
+import ToastNotification from "v-toastser";
+
+createApp(App).use(store).use(ToastNotification).mount("#app");
+```
+
+```js
+//component
+import toast from "v-toastser/src/api.js";
 ```
 
 ## Usage
 
-```sh
-npm run serve
+```js
+toast.info("Title", "This is a toast!", 4000);
+toast.warn("Title", "This is a toast!", 4000);
+toast.error("Title", "This is a toast!", 4000);
+toast.success("Title", "This is a toast!", 4000);
 ```
 
 ## Run tests
@@ -42,7 +63,7 @@ npm run serve
 
 👤 **notschlag**
 
-* Github: [@notschlag](https://github.com/notschlag)
+- Github: [@notschlag](https://github.com/notschlag)
 
 ## Show your support
 
@@ -53,5 +74,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2022 [notschlag](https://github.com/notschlag).<br />
 This project is [MIT](https://github.com/MeForma/vue-toaster/blob/master/LICENSE.txt) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
